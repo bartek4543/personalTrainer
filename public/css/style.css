@@ -1,0 +1,158 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+ 
+          
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+    }
+footer{
+    text-align: center;
+    flex-shrink: 0;
+    background-color: black;
+    color:#00ff00;
+}
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:black;
+    background-color: white;
+}
+#main{
+    flex: 1 0 auto;
+    text-align: center;
+    background-color: white;
+    color:black;
+    box-shadow: 0 4px 18px 0 rgba(0, 255, 0, 0.2), 0 6px 15px 0 rgba(0, 255, 0, 0.19);
+    
+}
+.navbar{
+    padding: 0;
+    background-color:rgb(204, 204, 204);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+table{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#wymiar{
+    background-color: rgb(204, 204, 204);
+    padding: 10px 5px;
+    margin: 15px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#myTable td{
+    padding: 5px 8px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+#HeaderTable td{
+    padding: 5px 5px;
+}
+.okienko{
+    background-color:rgb(204, 204, 204);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    border: #cccccc solid 1px;
+    
+}
+.okienko:hover{
+    background-color: white;
+}
+#plany{
+    display: inline-block;
+}
+#wiecej{
+    display: none;
+}
+#messageWindow{
+    display: flex;
+    flex-direction: column;
+    height: 93%;
+}
+#top{
+    border-top:#cccccc solid 1px; 
+    border-bottom:#cccccc solid 1px; 
+}
+#messages{
+    height: 70%;
+    flex: 1 0 auto;
+    overflow-y: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    text-align: center;
+    
+
+}
+#bottom{
+    position: sticky;
+    bottom: 0;
+    flex-shrink: 0;
+}
+textarea{
+    resize: none;
+}
+.yourMessage{
+    width: 100%;
+    padding: 5px;
+    margin: 15px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+.sent{
+    background: #00ff00;
+    padding: 9px;
+}
+.notYourMessage{
+    width: 100%;
+    padding: 5px;
+    margin: 15px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+.received{
+    background-color: #cccccc;
+    padding: 9px;
+}
+.datetime{
+    color: #cccccc;
+    font-size: 14px;
+}
+@media (min-width: 768px){
+html, body{
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#main{
+    margin: 10px 100px;
+
+}
+#myTable td{
+    padding: 8px 45px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+#HeaderTable td{
+    padding: 8px 30px;
+}
+
+
+ }
+
